@@ -5,6 +5,8 @@
   font-weight: 300;
   font-size: 0.9em;
   font-stretch: semi-expanded;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
 
 #logo {
