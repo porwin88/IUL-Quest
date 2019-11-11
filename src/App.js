@@ -8,7 +8,7 @@ import List from './components/list/List';
 export default function App () {
 
   return (
-    <div className="App">
+    <div className="App" data-test="component-app">
       <Header />
       <Hero />
       <List />
