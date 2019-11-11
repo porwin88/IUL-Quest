@@ -1,4 +1,3 @@
-import { toggleShowDetails } from '../actions/ui-actions';
 import uiReducer from './ui-reducers';
 
 describe('ui reducer', () => {
