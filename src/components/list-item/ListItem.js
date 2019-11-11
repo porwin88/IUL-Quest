@@ -8,10 +8,11 @@ import { toggleShowDetails } from '../../redux/actions/ui-actions';
 function ListItem ({ item, showDetails, toggleShowDetails }) {
 
   const handleClick = (e) => {
+    const question = e.target.innerHTML;
     if (!showDetails[item.question]) {
-      toggleShowDetails(e, true);
+      toggleShowDetails(question, true);
     } else {
-      toggleShowDetails(e, false);
+      toggleShowDetails(question, false);
     }
   }
 
@@ -31,7 +32,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-  toggleShowDetails: (e, val) => dispatch(toggleShowDetails(e, val)),
+  toggleShowDetails: (question, val) => dispatch(toggleShowDetails(question, val)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ListItem);

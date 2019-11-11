@@ -9,7 +9,7 @@ export default (state = INITIAL_STATE, action) => {
         ...state,
         showDetails: {
           ...state.showDetails,
-          [action.e.target.innerHTML]: action.val,
+          [action.question]: action.val,
         }
       }
     default:
