@@ -1,6 +1,7 @@
 .App {
   background-color: rgb(246,246,246);
-  height: 100vh;
+  height: 100%;
   font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
+  padding-bottom: 5vh;
 }
 
