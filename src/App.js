@@ -3,16 +3,16 @@ import React from 'react';
 import './App.css';
 import Header from './components/header/Header';
 import Hero from './components/hero/Hero';
+import List from './components/list/List';
 
+export default function App () {
 
-function App () {
   return (
     <div className="App">
       <Header />
       <Hero />
-      <div>Here is the app</div>
+      <List />
     </div>
   );
 }
 
-export default App;
