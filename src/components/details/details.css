@@ -1,0 +1,13 @@
+.details {
+  display: flex;
+  padding-top: 1vh;
+  padding-bottom: 2vh;
+  background-color: rgb(246,246,246);
+  color: black !important;
+}
+
+.text {
+  padding: 1vh;
+  padding-left: 3vh;
+  width: 25vw;
+}

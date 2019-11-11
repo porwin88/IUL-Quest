@@ -1,0 +1,12 @@
+.list {
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-top: 4vh;
+  flex-direction: horizontal;
+}
+
+.title {
+  font-size: 2em;
+  padding-bottom: 3vh;
+  padding-left: 1vh;
+}
