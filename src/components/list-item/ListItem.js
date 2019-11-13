@@ -5,7 +5,7 @@ import './list-item.css';
 import Details from '../details/Details';
 import { toggleShowDetails } from '../../redux/actions/ui-actions';
 
-function ListItem ({ item, showDetails, toggleShowDetails }) {
+export function ListItem ({ item, showDetails, toggleShowDetails }) {
 
   const handleClick = (e) => {
     const question = e.target.innerHTML;
@@ -17,13 +17,10 @@ function ListItem ({ item, showDetails, toggleShowDetails }) {
   }
 
   return (
-    <div>
-      <div className="list-item">
+      <div className="list-item" data-test="component-listitem">
         <div className="question" onClick={(e) => handleClick(e)}>{item.question}</div>
         {showDetails[item.question] && <Details className="details" item={item} />}
       </div>
-
-    </div>
   )
 }
 
