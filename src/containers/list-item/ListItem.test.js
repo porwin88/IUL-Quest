@@ -2,7 +2,7 @@ import React from 'react';
 import Enzyme, { shallow } from 'enzyme';
 import EnzymeAdapter from 'enzyme-adapter-react-16';
 
-import { ListItem } from './ListItem';
+import { ListItem } from '../../containers/list-item/ListItem';
 
 Enzyme.configure({ adapter: new EnzymeAdapter() });
 
