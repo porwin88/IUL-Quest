@@ -12,7 +12,7 @@ export function List({ getData, questions }) {
   return (
     <div className="list" data-test="component-list">
       <div className="title">QUESTIONS</div>
-      {questions && questions.map(el => <ListItem key={el.url} item={el} />)}
+      {questions && questions.map(el => <ListItem key={el.url} item={el} data-test="component-listitem" />)}
     </div>
   )
 }

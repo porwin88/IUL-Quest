@@ -2,7 +2,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 import './list-item.css';
-import Details from '../details/Details';
+import Details from '../../components/details/Details';
 import { toggleShowDetails } from '../../redux/actions/ui-actions';
 
 export function ListItem ({ item, showDetails, toggleShowDetails }) {
