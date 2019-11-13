@@ -6,7 +6,7 @@
 
    ```bash
    git clone git@github.com:lmandersson/IUL-Quest.git
-   cd client
+   cd iul-quest
    ```
 
 2. Install the frontend dependencies and start the client.
